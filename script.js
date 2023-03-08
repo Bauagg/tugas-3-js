@@ -16,19 +16,19 @@ console.log(ukuranKaos2)
 const celana = [
     {
         nama: "jeans",
-        harga: 50.000
+        harga: 50000
     },
     {
         nama: "cargo",
-        harga: 100.000
+        harga: 100000
     },
     {
         nama: "chinos",
-        harga: 150.000
+        harga: 150000
     },
     {
         nama: "training",
-        harga: 200.000
+        harga: 200000
     },
 ]
 
@@ -36,9 +36,9 @@ const celana = [
 const brendCelana = celana.map((brend) => brend.nama)
 console.log(brendCelana)
 
-const listNilai = celana.map((nilai) => nilai.harga + 2.000)
+const listNilai = celana.map((nilai) => nilai.harga + 2000)
 console.log(listNilai)
 
 // filter (merupakan method array di JavaScript yang berfungsi untuk mencari semua elemen di dalam array yang sesuai dengan kriteria tertentu.)
-const nilai = celana.filter((kategori) => kategori.harga > 50.000)
+const nilai = celana.filter((kategori) => kategori.harga > 50000)
 console.log(nilai)
